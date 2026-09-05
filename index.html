@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>O Intervalo — Arquivo Vale</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="screen">
+    <p class="eyebrow">SENHOR VALE // ARQUIVO 00 // TRANSMISSÃO ABERTA</p>
+    <img class="keyart" src="assets/vale-tv.svg" alt="Televisão antiga exibindo uma figura misteriosa">
+    <h1>O INTERVALO<br><span>AINDA ESCUTA</span></h1>
+    <p class="intro">Elias Vale dizia que o silêncio entre dois programas era vazio. Os arquivos recuperados sugerem o contrário. Se você encontrou esta página, não responda às três batidas.</p>
+    <div class="sigil" aria-hidden="true"><span>◌</span><i>III</i><span>◌</span></div>
+    <div class="watermark" aria-label="pistas visuais: sombra, luz, água">カゲ · نور · ミズ · 03:13</div>
+    <section class="panel">
+      <label for="code">Digite um código de arquivo</label>
+      <div class="row"><input id="code" autocomplete="off" placeholder="ex.: V13-042"><button id="submit">ABRIR ARQUIVO</button></div>
+      <p id="hint" class="hint">Dica inicial: o primeiro sinal apareceu na televisão. As pistas podem estar no fundo.</p>
+      <div id="result" class="result" aria-live="polite"></div>
+    </section>
+    <section class="map" aria-label="Mapa das transmissões">
+      <div class="map-title"><span>MAPA DO INTERVALO</span><small id="progress">0 / 5 portões</small></div>
+      <div class="gates"><div data-gate="1">01 <b>Sinal</b></div><div data-gate="2">02 <b>Sombra</b></div><div data-gate="3">03 <b>Luz</b></div><div data-gate="4">04 <b>Água</b></div><div data-gate="5">05 <b>Escuta</b></div></div>
+    </section>
+    <section class="notes">
+      <p><strong>ARQUIVO 00</strong> — Esta página não pede seu nome. Não entregue informações pessoais a nenhuma transmissão.</p>
+      <p><strong>REGRA DO JOGO</strong> — Toda resposta abre uma consequência. Se algo parecer impossível, procure a pista anterior.</p>
+      <p><strong>STATUS</strong> — sinal instável // presença não identificada // três batidas aguardando sincronização</p>
+    </section>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
+
